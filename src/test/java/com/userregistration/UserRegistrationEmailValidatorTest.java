@@ -26,10 +26,10 @@ import java.util.Collection;
     @Parameterized.Parameters
     public static Collection<Object[]> emailData(){
        return  Arrays.asList ( new Object[][]{
-                { "abc@yahoo.com" ,true},
-                {"abc-100@yahoo.com",true},
-                {"abc.100@yahoo.com",true},
-                {"abc111@abc.com",true},
+                { "piyu@yahoo.com" ,true},
+                {"piyu-100@yahoo.com",true},
+                {"piyu.100@yahoo.com",true},
+                {"piyu111@abc.com",true},
                 {"abc-100@abc.net",true},
                 {"abc.100@abc.com.au",true},
                 {"abc@1.com",true},
@@ -48,9 +48,10 @@ import java.util.Collection;
                 {"abc.@g.com",false},
                 {"abc@abc@gmail.com",false},
                 {"abc@a.com.21a",false},
-                {"abc@g.cim.au.au",false}
+                {"abc@g.cim.au.au",false},
+               {"abc@g.cim.au.au",false}
 
-    });
+       });
     }
     @Test
     public void givenEmail_WhenValidOrInvalid_ReturnTrueOrFalse() {

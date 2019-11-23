@@ -142,12 +142,12 @@
       <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="UserRegistration_Test" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="UserRegistrationTest.givenLastName_WhenMatch_ReturnTrue" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;com.userregistration.UserRegistration_Test&quot;" />
+        <option name="scriptParameters" value="--tests &quot;com.userregistration.UserRegistrationTest.givenLastName_WhenMatch_ReturnTrue&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -166,9 +166,9 @@
       <list>
         <item itemvalue="Gradle.UserRegistrationEmailValidatorTest" />
         <item itemvalue="Gradle.UserRegistrationPasswordTest" />
+        <item itemvalue="Gradle.UserRegistrationTest.givenLastName_WhenMatch_ReturnTrue" />
         <item itemvalue="Gradle.UserRegistrationTest" />
         <item itemvalue="Gradle.UserRegistrationEmailValidator" />
-        <item itemvalue="Gradle.UserRegistration_Test" />
       </list>
     </recent_temporary>
   </component>

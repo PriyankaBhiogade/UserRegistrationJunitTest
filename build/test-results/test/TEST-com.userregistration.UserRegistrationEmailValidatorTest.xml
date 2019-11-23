@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.userregistration.UserRegistrationEmailValidatorTest" tests="23" skipped="0" failures="0" errors="0" timestamp="2019-11-23T10:46:09" hostname="admin1-desktop" time="0.009">
+<testsuite name="com.userregistration.UserRegistrationEmailValidatorTest" tests="24" skipped="0" failures="0" errors="0" timestamp="2019-11-23T11:07:49" hostname="admin1-desktop" time="0.011">
   <properties/>
-  <testcase name="givenEmail_WhenValidOrInvalid_ReturnTrueOrFalse[0]" classname="com.userregistration.UserRegistrationEmailValidatorTest" time="0.0"/>
+  <testcase name="givenEmail_WhenValidOrInvalid_ReturnTrueOrFalse[0]" classname="com.userregistration.UserRegistrationEmailValidatorTest" time="0.001"/>
   <testcase name="givenEmail_WhenValidOrInvalid_ReturnTrueOrFalse[1]" classname="com.userregistration.UserRegistrationEmailValidatorTest" time="0.0"/>
   <testcase name="givenEmail_WhenValidOrInvalid_ReturnTrueOrFalse[2]" classname="com.userregistration.UserRegistrationEmailValidatorTest" time="0.0"/>
   <testcase name="givenEmail_WhenValidOrInvalid_ReturnTrueOrFalse[3]" classname="com.userregistration.UserRegistrationEmailValidatorTest" time="0.0"/>
@@ -13,7 +13,7 @@
   <testcase name="givenEmail_WhenValidOrInvalid_ReturnTrueOrFalse[9]" classname="com.userregistration.UserRegistrationEmailValidatorTest" time="0.0"/>
   <testcase name="givenEmail_WhenValidOrInvalid_ReturnTrueOrFalse[10]" classname="com.userregistration.UserRegistrationEmailValidatorTest" time="0.0"/>
   <testcase name="givenEmail_WhenValidOrInvalid_ReturnTrueOrFalse[11]" classname="com.userregistration.UserRegistrationEmailValidatorTest" time="0.0"/>
-  <testcase name="givenEmail_WhenValidOrInvalid_ReturnTrueOrFalse[12]" classname="com.userregistration.UserRegistrationEmailValidatorTest" time="0.001"/>
+  <testcase name="givenEmail_WhenValidOrInvalid_ReturnTrueOrFalse[12]" classname="com.userregistration.UserRegistrationEmailValidatorTest" time="0.0"/>
   <testcase name="givenEmail_WhenValidOrInvalid_ReturnTrueOrFalse[13]" classname="com.userregistration.UserRegistrationEmailValidatorTest" time="0.0"/>
   <testcase name="givenEmail_WhenValidOrInvalid_ReturnTrueOrFalse[14]" classname="com.userregistration.UserRegistrationEmailValidatorTest" time="0.0"/>
   <testcase name="givenEmail_WhenValidOrInvalid_ReturnTrueOrFalse[15]" classname="com.userregistration.UserRegistrationEmailValidatorTest" time="0.001"/>
@@ -24,6 +24,7 @@
   <testcase name="givenEmail_WhenValidOrInvalid_ReturnTrueOrFalse[20]" classname="com.userregistration.UserRegistrationEmailValidatorTest" time="0.0"/>
   <testcase name="givenEmail_WhenValidOrInvalid_ReturnTrueOrFalse[21]" classname="com.userregistration.UserRegistrationEmailValidatorTest" time="0.0"/>
   <testcase name="givenEmail_WhenValidOrInvalid_ReturnTrueOrFalse[22]" classname="com.userregistration.UserRegistrationEmailValidatorTest" time="0.0"/>
+  <testcase name="givenEmail_WhenValidOrInvalid_ReturnTrueOrFalse[23]" classname="com.userregistration.UserRegistrationEmailValidatorTest" time="0.0"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
