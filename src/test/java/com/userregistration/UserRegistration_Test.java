@@ -102,4 +102,13 @@ public class UserRegistration_Test {
         boolean result = userRegistration.validLastName("BHIOGADE");
         Assert.assertFalse(result);
     }
+    //test case for mobile num
+    //valid
+    @Test
+    public void givenMobile_WhenProper_ReturnTrue() {
+        boolean result = userRegistration.validateMobile("91 7458963254");
+        Assert.assertTrue(result);
+    }
+
+
 }

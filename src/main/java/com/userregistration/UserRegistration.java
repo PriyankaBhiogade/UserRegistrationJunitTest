@@ -22,5 +22,17 @@ public class UserRegistration {
             return true;
         return false;
     }
+    //mobileNum
+    public boolean validateMobile(String mobile) {
+        String pattern="^[0-9]{2,2}[ ][7,8,9]{1,1}[0-9]{9}$";
+        Pattern mobilePattern = Pattern.compile(pattern);
+        Matcher matcher = mobilePattern.matcher(mobile);
+        if (matcher.matches())
+            return true;
+        return false;
+    }
+
+
+
 
 }
