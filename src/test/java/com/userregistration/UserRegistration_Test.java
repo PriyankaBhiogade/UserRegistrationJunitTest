@@ -115,6 +115,11 @@ public class UserRegistration_Test {
         boolean result = userRegistration.validateMobile("918149288245");
         Assert.assertFalse(result);
     }
+    @Test
+    public void givenMobile_WhenPassChar_ShouldReturnFalse() {
+        boolean result= userRegistration.validateMobile("abcdere" );
+        Assert.assertFalse(result);
+    }
 
 
 }
