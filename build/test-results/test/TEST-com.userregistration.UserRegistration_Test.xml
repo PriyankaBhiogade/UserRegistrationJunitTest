@@ -1,16 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.userregistration.UserRegistration_Test" tests="10" skipped="0" failures="0" errors="0" timestamp="2019-11-23T03:44:54" hostname="admin1-desktop" time="0.008">
+<testsuite name="com.userregistration.UserRegistration_Test" tests="1" skipped="0" failures="0" errors="0" timestamp="2019-11-23T03:50:42" hostname="admin1-desktop" time="0.0">
   <properties/>
-  <testcase name="givenFirstName_WhenUpperLetter_ReturnFalse" classname="com.userregistration.UserRegistration_Test" time="0.001"/>
-  <testcase name="givenFirstName_WhenSpecialChar_ReturnFalse" classname="com.userregistration.UserRegistration_Test" time="0.0"/>
-  <testcase name="givenFirstName_WhenUpperLetterMissing_ReturnFalse" classname="com.userregistration.UserRegistration_Test" time="0.0"/>
-  <testcase name="givenFirstName_WhenProper_ReturnTrue" classname="com.userregistration.UserRegistration_Test" time="0.001"/>
-  <testcase name="givenFirstName_WhenEmpty_ReturnFalse" classname="com.userregistration.UserRegistration_Test" time="0.0"/>
-  <testcase name="givenFirstName_WhenLengthLessThanThree_ReturnFalse" classname="com.userregistration.UserRegistration_Test" time="0.0"/>
-  <testcase name="givenFirstName_WhenMoreThanOneUpper_ReturnFalse" classname="com.userregistration.UserRegistration_Test" time="0.001"/>
-  <testcase name="givenFirstName_WhenMatch_ReturnTrue" classname="com.userregistration.UserRegistration_Test" time="0.0"/>
-  <testcase name="givenFirstName_WhenNum_ReturnFalse" classname="com.userregistration.UserRegistration_Test" time="0.0"/>
-  <testcase name="givenFirstName_WhenAllLetterUpper_ReturnFalse" classname="com.userregistration.UserRegistration_Test" time="0.001"/>
+  <testcase name="givenLastName_WhenProper_ReturnTrue" classname="com.userregistration.UserRegistration_Test" time="0.0"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
