@@ -61,7 +61,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Gradle.UserRegistration_Test.givenMobile_WhenNotGivenSpace_ShouldReturnFalse">
+  <component name="RunManager" selected="Gradle.UserRegistration_Test">
     <configuration name="UserRegistration_Test" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -164,8 +164,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.UserRegistration_Test.givenMobile_WhenNotGivenSpace_ShouldReturnFalse" />
         <item itemvalue="Gradle.UserRegistration_Test" />
+        <item itemvalue="Gradle.UserRegistration_Test.givenMobile_WhenNotGivenSpace_ShouldReturnFalse" />
         <item itemvalue="Gradle.UserRegistration_Test.givenMobile_WhenProper_ReturnTrue" />
         <item itemvalue="Gradle.UserRegistration_Test.givenMobile_WhenProper_ShouldReturnTrue" />
         <item itemvalue="Gradle.UserRegistration_Test.givenLastName_WhenMatch_ReturnTrue" />

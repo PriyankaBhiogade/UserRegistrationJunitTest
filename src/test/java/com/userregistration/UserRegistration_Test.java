@@ -111,20 +111,28 @@ public class UserRegistration_Test {
     }
     //invalid test
     @Test
-    public void givenMobile_WhenNotGivenSpace_ShouldReturnFalse() {
+    public void givenMobile_WhenNotGivenSpace_ReturnFalse() {
         boolean result = userRegistration.validateMobile("918149288245");
         Assert.assertFalse(result);
     }
     @Test
-    public void givenMobile_WhenPassChar_ShouldReturnFalse() {
+    public void givenMobile_WhenPassChar_ReturnFalse() {
         boolean result= userRegistration.validateMobile("abcdere" );
         Assert.assertFalse(result);
     }
     @Test
-    public void givenMobile_WhenPassSpecialCharacter_ShouldReturnFalse() {
+    public void givenMobile_WhenSpecialCharacter_ReturnFalse() {
         boolean result = userRegistration.validateMobile("@$%#$%#$%");
         Assert.assertFalse(result);
     }
-
-
+    @Test
+    public void givenMobile_WhenPassSpaceAtAnyPosition_ReturnFalse() {
+        boolean result = userRegistration.validateMobile("814928 853670");
+        Assert.assertFalse(result);
+    }
+    @Test
+    public void givenMobile_WhenNumLessThan10_ReturnFalse() {
+        boolean result = userRegistration.validateMobile("814928");
+        Assert.assertFalse(result);
+    }
 }
