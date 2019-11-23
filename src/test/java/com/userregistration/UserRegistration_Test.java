@@ -120,6 +120,11 @@ public class UserRegistration_Test {
         boolean result= userRegistration.validateMobile("abcdere" );
         Assert.assertFalse(result);
     }
+    @Test
+    public void givenMobile_WhenPassSpecialCharacter_ShouldReturnFalse() {
+        boolean result = userRegistration.validateMobile("@$%#$%#$%");
+        Assert.assertFalse(result);
+    }
 
 
 }
