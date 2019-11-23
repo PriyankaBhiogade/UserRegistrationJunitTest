@@ -70,5 +70,11 @@ public class UserRegistration_Test {
         boolean result = userRegistration.validLastName("Bhi");
         Assert.assertTrue(result);
     }
+    //invalid test
+    @Test
+    public void givenLastName_WhenUpperLetterMissing_ReturnFalse() {
+        boolean result = userRegistration.validLastName("bhiogade");
+        Assert.assertFalse(result);
+    }
 
 }
