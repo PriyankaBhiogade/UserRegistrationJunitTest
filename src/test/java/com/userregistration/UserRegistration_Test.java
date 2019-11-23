@@ -109,6 +109,12 @@ public class UserRegistration_Test {
         boolean result = userRegistration.validateMobile("91 7458963254");
         Assert.assertTrue(result);
     }
+    //invalid test
+    @Test
+    public void givenMobile_WhenNotGivenSpace_ShouldReturnFalse() {
+        boolean result = userRegistration.validateMobile("918149288245");
+        Assert.assertFalse(result);
+    }
 
 
 }
