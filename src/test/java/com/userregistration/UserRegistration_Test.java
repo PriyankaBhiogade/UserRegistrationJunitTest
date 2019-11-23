@@ -81,5 +81,9 @@ public class UserRegistration_Test {
         boolean result = userRegistration.validLastName("Bh");
         Assert.assertFalse(result);
     }
-
+    @Test
+    public void givenLastName_WhenUpperLetter_ReturnFalse() {
+        boolean result = userRegistration.validLastName("BhiIogade");
+        Assert.assertFalse(result);
+    }
 }
