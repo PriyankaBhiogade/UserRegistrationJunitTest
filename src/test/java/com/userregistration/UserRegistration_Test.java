@@ -76,5 +76,10 @@ public class UserRegistration_Test {
         boolean result = userRegistration.validLastName("bhiogade");
         Assert.assertFalse(result);
     }
+    @Test
+    public void givenLastName_WhenLengthLessThanThree_ReturnFalse() {
+        boolean result = userRegistration.validLastName("Bh");
+        Assert.assertFalse(result);
+    }
 
 }
