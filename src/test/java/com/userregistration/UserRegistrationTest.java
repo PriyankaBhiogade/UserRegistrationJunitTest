@@ -3,7 +3,7 @@ package com.userregistration;
 import org.junit.Assert;
 import org.junit.Test;
 
-public class UserRegistration_Test {
+public class UserRegistrationTest {
     UserRegistration userRegistration = new UserRegistration();
     //Test cases for First Name
     //valid test

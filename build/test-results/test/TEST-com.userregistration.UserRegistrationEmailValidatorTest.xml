@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.userregistration.UserRegistrationEmailValidatorTest" tests="23" skipped="0" failures="0" errors="0" timestamp="2019-11-23T09:22:39" hostname="admin1-desktop" time="0.03">
+  <properties/>
+  <testcase name="testEmail[0]" classname="com.userregistration.UserRegistrationEmailValidatorTest" time="0.002"/>
+  <testcase name="testEmail[1]" classname="com.userregistration.UserRegistrationEmailValidatorTest" time="0.001"/>
+  <testcase name="testEmail[2]" classname="com.userregistration.UserRegistrationEmailValidatorTest" time="0.002"/>
+  <testcase name="testEmail[3]" classname="com.userregistration.UserRegistrationEmailValidatorTest" time="0.001"/>
+  <testcase name="testEmail[4]" classname="com.userregistration.UserRegistrationEmailValidatorTest" time="0.002"/>
+  <testcase name="testEmail[5]" classname="com.userregistration.UserRegistrationEmailValidatorTest" time="0.001"/>
+  <testcase name="testEmail[6]" classname="com.userregistration.UserRegistrationEmailValidatorTest" time="0.0"/>
+  <testcase name="testEmail[7]" classname="com.userregistration.UserRegistrationEmailValidatorTest" time="0.001"/>
+  <testcase name="testEmail[8]" classname="com.userregistration.UserRegistrationEmailValidatorTest" time="0.0"/>
+  <testcase name="testEmail[9]" classname="com.userregistration.UserRegistrationEmailValidatorTest" time="0.0"/>
+  <testcase name="testEmail[10]" classname="com.userregistration.UserRegistrationEmailValidatorTest" time="0.0"/>
+  <testcase name="testEmail[11]" classname="com.userregistration.UserRegistrationEmailValidatorTest" time="0.001"/>
+  <testcase name="testEmail[12]" classname="com.userregistration.UserRegistrationEmailValidatorTest" time="0.001"/>
+  <testcase name="testEmail[13]" classname="com.userregistration.UserRegistrationEmailValidatorTest" time="0.0"/>
+  <testcase name="testEmail[14]" classname="com.userregistration.UserRegistrationEmailValidatorTest" time="0.0"/>
+  <testcase name="testEmail[15]" classname="com.userregistration.UserRegistrationEmailValidatorTest" time="0.001"/>
+  <testcase name="testEmail[16]" classname="com.userregistration.UserRegistrationEmailValidatorTest" time="0.0"/>
+  <testcase name="testEmail[17]" classname="com.userregistration.UserRegistrationEmailValidatorTest" time="0.0"/>
+  <testcase name="testEmail[18]" classname="com.userregistration.UserRegistrationEmailValidatorTest" time="0.001"/>
+  <testcase name="testEmail[19]" classname="com.userregistration.UserRegistrationEmailValidatorTest" time="0.0"/>
+  <testcase name="testEmail[20]" classname="com.userregistration.UserRegistrationEmailValidatorTest" time="0.0"/>
+  <testcase name="testEmail[21]" classname="com.userregistration.UserRegistrationEmailValidatorTest" time="0.0"/>
+  <testcase name="testEmail[22]" classname="com.userregistration.UserRegistrationEmailValidatorTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

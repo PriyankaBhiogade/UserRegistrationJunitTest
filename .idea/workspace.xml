@@ -61,7 +61,47 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Gradle.UserRegistration_Test">
+  <component name="RunManager" selected="Gradle.UserRegistrationEmailValidatorTest">
+    <configuration name="UserRegistrationEmailValidator" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;com.userregistration.UserRegistrationEmailValidator&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":cleanTest" />
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="UserRegistrationEmailValidatorTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;com.userregistration.UserRegistrationEmailValidatorTest&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":cleanTest" />
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
     <configuration name="UserRegistration_Test" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -82,12 +122,12 @@
       <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="UserRegistration_Test.givenLastName_WhenMatch_ReturnTrue" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="UserRegistration_Test.givenFirstName_WhenProper_ReturnTrue" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;com.userregistration.UserRegistration_Test.givenLastName_WhenMatch_ReturnTrue&quot;" />
+        <option name="scriptParameters" value="--tests &quot;com.userregistration.UserRegistration_Test.givenFirstName_WhenProper_ReturnTrue&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -102,52 +142,12 @@
       <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="UserRegistration_Test.givenMobile_WhenNotGivenSpace_ShouldReturnFalse" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="UserRegistration_Test.testEmail" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;com.userregistration.UserRegistration_Test.givenMobile_WhenNotGivenSpace_ShouldReturnFalse&quot;" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":cleanTest" />
-            <option value=":test" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
-      <method v="2" />
-    </configuration>
-    <configuration name="UserRegistration_Test.givenMobile_WhenProper_ReturnTrue" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;com.userregistration.UserRegistration_Test.givenMobile_WhenProper_ReturnTrue&quot;" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":cleanTest" />
-            <option value=":test" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
-      <method v="2" />
-    </configuration>
-    <configuration name="UserRegistration_Test.givenMobile_WhenProper_ShouldReturnTrue" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;com.userregistration.UserRegistration_Test.givenMobile_WhenProper_ShouldReturnTrue&quot;" />
+        <option name="scriptParameters" value="--tests &quot;com.userregistration.UserRegistration_Test.testEmail&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -164,11 +164,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.UserRegistrationEmailValidatorTest" />
+        <item itemvalue="Gradle.UserRegistrationEmailValidator" />
         <item itemvalue="Gradle.UserRegistration_Test" />
-        <item itemvalue="Gradle.UserRegistration_Test.givenMobile_WhenNotGivenSpace_ShouldReturnFalse" />
-        <item itemvalue="Gradle.UserRegistration_Test.givenMobile_WhenProper_ReturnTrue" />
-        <item itemvalue="Gradle.UserRegistration_Test.givenMobile_WhenProper_ShouldReturnTrue" />
-        <item itemvalue="Gradle.UserRegistration_Test.givenLastName_WhenMatch_ReturnTrue" />
+        <item itemvalue="Gradle.UserRegistration_Test.givenFirstName_WhenProper_ReturnTrue" />
+        <item itemvalue="Gradle.UserRegistration_Test.testEmail" />
       </list>
     </recent_temporary>
   </component>
