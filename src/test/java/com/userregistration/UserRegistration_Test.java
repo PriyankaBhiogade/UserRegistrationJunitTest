@@ -65,5 +65,10 @@ public class UserRegistration_Test {
         boolean result = userRegistration.validLastName("Bhiogade");
         Assert.assertTrue(result);
     }
+    @Test
+    public void givenLastName_WhenMatch_ReturnTrue() {
+        boolean result = userRegistration.validLastName("Bhi");
+        Assert.assertTrue(result);
+    }
 
 }

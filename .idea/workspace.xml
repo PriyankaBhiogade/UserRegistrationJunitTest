@@ -13,6 +13,16 @@
       <ProjectState />
     </projectState>
   </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
+        <projects_view />
+      </state>
+    </system>
+  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
@@ -51,7 +61,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Gradle.UserRegistration_Test">
+  <component name="RunManager" selected="Gradle.UserRegistration_Test.givenLastName_WhenProper_ReturnTrue">
     <configuration name="UserRegistration_Test" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -132,12 +142,12 @@
       <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="UserRegistration_Test.givenFirstName_WhenUpperLetterMissing_ReturnFalse" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="UserRegistration_Test.givenLastName_WhenProper_ReturnTrue" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;com.userregistration.UserRegistration_Test.givenFirstName_WhenUpperLetterMissing_ReturnFalse&quot;" />
+        <option name="scriptParameters" value="--tests &quot;com.userregistration.UserRegistration_Test.givenLastName_WhenProper_ReturnTrue&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -154,11 +164,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.UserRegistration_Test.givenLastName_WhenProper_ReturnTrue" />
         <item itemvalue="Gradle.UserRegistration_Test" />
         <item itemvalue="Gradle.UserRegistration_Test.givenFirstName_WhenNum_ReturnFalse" />
         <item itemvalue="Gradle.UserRegistration_Test.givenFirstName_WhenSpecialChar_ReturnFalse" />
         <item itemvalue="Gradle.UserRegistration_Test.givenFirstName_WhenAllLetterUpper_ReturnFalse" />
-        <item itemvalue="Gradle.UserRegistration_Test.givenFirstName_WhenUpperLetterMissing_ReturnFalse" />
       </list>
     </recent_temporary>
   </component>
