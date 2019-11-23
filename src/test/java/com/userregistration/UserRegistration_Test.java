@@ -86,4 +86,20 @@ public class UserRegistration_Test {
         boolean result = userRegistration.validLastName("BhiIogade");
         Assert.assertFalse(result);
     }
+
+    @Test
+    public void givenLastName_WhenNum_ReturnFalse() {
+        boolean result = userRegistration.validLastName("Bhiogade123");
+        Assert.assertFalse(result);
+    }
+    @Test
+    public void givenLastName_WhenMoreThanOneUpper_ReturnFalse() {
+        boolean result = userRegistration.validLastName("BhioGade");
+        Assert.assertFalse(result);
+    }
+    @Test
+    public void givenLastName_WhenAllLetterUpper_ReturnFalse() {
+        boolean result = userRegistration.validLastName("BHIOGADE");
+        Assert.assertFalse(result);
+    }
 }
