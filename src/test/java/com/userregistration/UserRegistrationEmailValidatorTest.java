@@ -19,6 +19,7 @@ public class UserRegistrationEmailValidatorTest {
         this.email = email;
         this.finalResult = finalResult;
     }
+
     @Before
     public void initialize(){
         this.userRegistration = new UserRegistration();
