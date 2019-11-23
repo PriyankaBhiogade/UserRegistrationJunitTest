@@ -33,14 +33,21 @@ public class UserRegistration {
     }
     //Email
     public boolean validateEmail(String email ) {
-      String pattern="^[a-zA-Z0-9]([-._+]{0,1}[a-zA-Z0-9])*[@]{1}[a-zA-Z0-9]{1,}[.]{1}[a-zA-Z]{2,3}([.]{1}[a-zA-Z]{2,3}){0,1}$";
-//        String pattern="^[a-zA-z]{1}([.]{0,1}[a-zA-z0-9+-]{1,}){0,}[@]{1}[a-zA-Z0-9]{1,}[.]{1}[a-z]{2,3}([.]{1}[a-z]{2}){0,1}";
+        String pattern="^[a-zA-Z0-9]([-._+]{0,1}[a-zA-Z0-9])*[@]{1}[a-zA-Z0-9]{1,}[.]{1}[a-zA-Z]{2,3}([.]{1}[a-zA-Z]{2,3}){0,1}$";
         Pattern emailPattern = Pattern.compile(pattern);
         Matcher matcher = emailPattern.matcher(email);
         if (matcher.matches())
             return true;
-        else
-            return false;
+        return false;
+    }
+    //Password
+    public boolean validatePassword(String password){
+        String pattern ="((?=.*[a-z])(?=.*\\d)(?=.*[A-Z])(?=.*[@#$%!]).{8,40})";
+        Pattern passwordPattern = Pattern.compile(pattern);
+        Matcher matcher = passwordPattern.matcher(password);
+        if (matcher.matches())
+            return true;
+        return false;
     }
 
 

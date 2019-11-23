@@ -9,18 +9,16 @@ import org.junit.runners.Parameterized;
 import java.util.Arrays;
 import java.util.Collection;
 
-@RunWith(Parameterized.class)
-public class UserRegistrationEmailValidatorTest {
-    private String email;
-    private UserRegistration userRegistration;
-    private boolean finalResult;
+    @RunWith(Parameterized.class)
+    public class UserRegistrationEmailValidatorTest {
+        private String email;
+        private UserRegistration userRegistration;
+        private boolean finalResult;
 
     public UserRegistrationEmailValidatorTest(String email, boolean finalResult) {
         this.email = email;
         this.finalResult = finalResult;
     }
-
-
     @Before
     public void initialize(){
         this.userRegistration = new UserRegistration();
@@ -55,7 +53,7 @@ public class UserRegistrationEmailValidatorTest {
     });
     }
     @Test
-    public void testEmail() {
+    public void givenEmail_WhenValidOrInvalid_ReturnTrueOrFalse() {
         boolean result = userRegistration.validateEmail(this.email);
         Assert.assertEquals(this.finalResult,result);
     }
